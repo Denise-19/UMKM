@@ -1,0 +1,69 @@
+/* Start Carousel */
+.carouselCaptionHome{
+	/* background-color: red; */
+	position: absolute;
+    top: 50%;
+    transform: translateX(-10%);
+	height: auto;
+	width: 500px;
+}
+
+.carouselCaptionHomeWithLink{
+	/* background-color: red; */
+	position: absolute;
+    top: 20%;
+    transform: translateX(-10%);
+	height: auto;
+	width: 500px;
+}
+
+.carousel-indicators button {
+	/* width: 0.4rem !important;
+	height: 0.4rem !important;
+	border-radius: 50%;
+	color: red !important; */
+	border-radius: 2px !important;
+	height: 9px !important;
+	width: 50px !important;
+	background-color: rgba(217, 217, 217, 1) !important;
+  }
+  
+  .carousel-indicators button:not(:first-child) {
+	margin-left: 0.5rem;
+  }
+  
+.carousel-indicators .active {
+	background-color: #9C8430 !important;
+}
+/* End Carousel */
+
+/* mobile 768
+tablet 992
+laptop 1324
+desktop 2024 */
+@media screen and (max-width: 768px){
+	.carouselCaptionHome{
+		transform: translateX(-10%);
+		width: 100%;
+	}
+    .carouselCaptionHomeWithLink{
+        top: 10%;
+        width: auto;
+        transform: translateX(-10%);
+        /* line-height: 1.4; */
+    }
+}
+
+@media screen and (max-width: 992px){
+
+	.carouselCaptionHome{
+		transform: translateX(-10%);
+	}
+    .carouselCaptionHomeWithLink{
+        top: 10%;
+        width: auto;
+        transform: translateX(-10%);
+        /* line-height: 1.4; */
+    }
+
+}

@@ -1,0 +1,25 @@
+.prevBtn{
+    outline: 'none';
+    box-shadow: none;
+    border: 'none';
+    background-color: transparent;
+}
+.nextBtn{
+    outline: 'none';
+    box-shadow: none;
+    background-color: transparent;
+}
+button.nextBtn:focus,.nextBtn:active {
+    outline: 'none';
+    box-shadow: none;
+ }
+button.prevBtn:focus,.prevBtn:active {
+    outline: 'none';
+    box-shadow: none;
+}
+.prevBtn:hover{
+    cursor: pointer;
+}
+.nextBtn:hover{
+    cursor: pointer;
+}
